@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #292727;
+    border-radius: 10px;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #504b4b;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(53, 54, 54); */
+    border: 1px solid rgba(131, 66, 66, 0.507);
+    box-shadow: 0cqb;
+    /* position: fixed; */
+}
+
+.header .logo img{
+    width: 90px;
+    height: 70px;
+}
+
+.nav-items ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+       list-style: none;
+       color: rgb(79, 78, 77);
+}
+
+.containbody{
+   
+     width: 100%;
+     
+     /* background-color: rgb(192, 166, 166); */
+}
+.search{
+    width: 100%;
+    height: 50px;
+
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 300px;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+.search button{
+     width: 100px;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+}
+
+.body{
+   
+    
+   
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+
+/* CARD */
+.card {
+    width: 280px;
+    height: 350px;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+
+/* IMAGE */
+.cardimage {
+    width: 100%;
+    height: 58%;
+    overflow: hidden;
+    background: #292727;
+}
+
+.cardimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .cardimage img {
+    transform: scale(1.05);
+}
+
+
+/* CONTENT */
+.content {
+    height: 42%;
+    padding: 14px 16px;
+    background: white;
+}
+
+
+/* RESTAURANT NAME */
+.defi {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 10px;
+    line-height: 1.25;
+}
+
+
+/* DETAILS */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
+}
+
+.section p {
+    margin: 6px 0;
+    color: #666;
+}
+
+.left {
+    max-width: 170px;
+}
+
+.right {
+    text-align: right;
+}
+
+
+/* BUY BUTTON */
+.buy {
+    width: 55px;
+    height: 30px;
+    margin-top: 8px;
+    background: #292727;
+    color: white;
+    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+.buy:hover {
+    background: #000;
+}
+
+.buy h1 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
